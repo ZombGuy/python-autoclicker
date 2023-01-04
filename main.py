@@ -2,11 +2,11 @@ import time
 import threading
 
 from pynput.mouse import Button, Controller
-from pynput.keyboard import Listener, KeyCode
+from pynput.keyboard import Listener, KeyCode, Key
 
 # abam is pog and did a good python
 
-TOGGLE_KEY = KeyCode(char="t")
+TOGGLE_KEY = Key.f6
 
 clicking = False
 mouse = Controller()
