@@ -3,10 +3,27 @@ import threading
 
 from pynput.mouse import Button, Controller
 from pynput.keyboard import Listener, KeyCode, Key
+#from tkinter import *
 
-# abam is pog and did a good python
 
 TOGGLE_KEY = Key.f6
+
+#root = Tk()
+
+
+#myLabel = Label(root, text="Hello World!")
+
+
+#myLabel.pack()
+
+
+#root.mainloop()
+
+
+
+##### breaks stuff :cry:
+
+
 
 
 clicking = False
