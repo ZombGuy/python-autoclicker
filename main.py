@@ -4,6 +4,7 @@ import threading
 from pynput.mouse import Button, Controller
 from pynput.keyboard import Listener, KeyCode
 
+# abam is pog and did a good python
 
 TOGGLE_KEY = KeyCode(char="t")
 
