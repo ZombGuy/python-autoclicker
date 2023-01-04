@@ -23,6 +23,7 @@ def toggle_event(key):
     if key == TOGGLE_KEY:
         global clicking
         clicking = not clicking
+        print("Toggled")
 
 
 click_thread = threading.Thread(target=clicker)
