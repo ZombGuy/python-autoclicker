@@ -8,6 +8,7 @@ from pynput.keyboard import Listener, KeyCode, Key
 
 TOGGLE_KEY = Key.f6
 
+
 clicking = False
 mouse = Controller()
 
@@ -23,7 +24,10 @@ def toggle_event(key):
     if key == TOGGLE_KEY:
         global clicking
         clicking = not clicking
-        print("Toggled")
+        if clicking:
+            print("Clicking")
+        else:
+            print("Not Clicking")
 
 
 click_thread = threading.Thread(target=clicker)
